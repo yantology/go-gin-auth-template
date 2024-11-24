@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aplikasi Autentikasi</title>
+    <!-- ...kodenya CSS... -->
+  </head>
+  <body>
+    <!-- ...konten yang ada... -->
+    <h1>Registrasi</h1>
+    <form id="register-form">
+      <input
+        type="text"
+        name="username"
+        placeholder="Username"
+        required
+      /><br />
+      <input type="email" name="email" placeholder="Email" required /><br />
+      <input
+        type="password"
+        name="password"
+        placeholder="Kata Sandi"
+        required
+      /><br />
+      <button type="submit">Daftar</button>
+    </form>
+
+    <h1>Login</h1>
+    <form id="login-form">
+      <input type="email" name="email" placeholder="Email" required /><br />
+      <input
+        type="password"
+        name="password"
+        placeholder="Kata Sandi"
+        required
+      /><br />
+      <button type="submit">Masuk</button>
+    </form>
+
+    <h1>Ubah Kata Sandi</h1>
+    <form id="change-password-form">
+      <input
+        type="password"
+        name="old_password"
+        placeholder="Kata Sandi Lama"
+        required
+      /><br />
+      <input
+        type="password"
+        name="new_password"
+        placeholder="Kata Sandi Baru"
+        required
+      /><br />
+      <button type="submit">Ubah Kata Sandi</button>
+    </form>
+    <!-- ...konten yang ada... -->
+    <script src="/public/app.js"></script>
+  </body>
+</html>
